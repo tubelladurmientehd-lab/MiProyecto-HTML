@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Productos - Tienda Linda Online</title>
+</head>
+<body>
+
+<header>
+    <h1>Tienda Linda Online</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="carrito.html">Carrito</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="acerca.html">Acerca de</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<aside>
+    <h2>Filtros</h2>
+
+    <form>
+
+        <fieldset>
+            <legend>Precio</legend>
+
+            <label>Precio Máximo:</label>
+            <input type="number">
+        </fieldset>
+
+        <fieldset>
+            <legend>Marca</legend>
+
+            <select>
+                <option>ASUS</option>
+                <option>HP</option>
+                <option>Apple</option>
+                <option>Samsung</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Categoría</legend>
+
+            <input list="categorias">
+
+            <datalist id="categorias">
+                <option value="Laptop">
+                <option value="Smartphone">
+                <option value="Gaming">
+                <option value="Accesorios">
+            </datalist>
+        </fieldset>
+
+        <fieldset>
+            <legend>Color</legend>
+
+            <label>
+                <input type="radio" name="color">
+                Negro
+            </label>
+
+            <label>
+                <input type="radio" name="color">
+                Blanco
+            </label>
+        </fieldset>
+
+    </form>
+
+</aside>
+
+<section>
+
+<h2>Catálogo</h2>
+
+<article>
+    <h3>Laptop ASUS ROG</h3>
+    <img src="img/laptop1.jpg" alt="Laptop ASUS" width="200">
+    <p>Gaming de alto rendimiento.</p>
+</article>
+
+<article>
+    <h3>iPhone 15</h3>
+    <img src="img/iphone15.jpg" alt="iPhone 15" width="200">
+    <p>Smartphone premium.</p>
+</article>
+
+<article>
+    <h3>Galaxy S25</h3>
+    <img src="img/galaxy.jpg" alt="Galaxy S25" width="200">
+    <p>Potencia y velocidad.</p>
+</article>
+
+</section>
+
+</main>
+
+<footer>
+<small>© 2026 Tienda Linda Online</small>
+</footer>
+
+</body>
+</html>
